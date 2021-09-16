@@ -2,7 +2,7 @@ pkgname=rebornos-iso-welcome
 scriptname=rebornos-iso-w
 orgsh=rebornos-welcome
 pkgver=0.0.22
-pkgrel=1.1
+pkgrel=1.2
 commitn=296065ca5743bfee7a62ad6dba3ed3575573d4d9
 pkgdesc='RebornOS Welcome contains basic links to help get one started on RebornOS as a new user'
 arch=('any')
@@ -22,7 +22,7 @@ source=("${pkgname}::git+${url}#commit=${commitn}"
 sha512sums=('SKIP'
             '8e210ab8d6025c63a28a0548f61dd391ed224eaf1a41dfe924018ddf97892f5db18adbfd12239a62d84ae9fe929940b2260718888c63e07e3d17ab64337ba6fb'
             '52147989f4643cb2ff82fdf83ef45d8b9dea2d1b4463f59e666db064c0ddc64a38aa3135f6d6b5db627fcad06e085db95c7d3d5d3f75aa15d8ecba5e3b0667e0'
-            'f34703663466fafe41a48de6234066f1284c14888bd0ffeeaaad973e85492d6b7da5a5db11b7b3cb1755d10dfe23ebc112ad421da592fab201c513fc1da60daf')
+            '5b230b58d317aaad13995e50aebab3b4e42ca7fee004720c37357c662334d9a1f3e9ff021bad751f01c479e552e61f337a36735d335c32c4beecf99bd1a2934f')
 
 package() {
     # The autorun is removed, as it is not needed
