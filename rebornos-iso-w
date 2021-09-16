@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd /opt/rebornos-welcome
+cd /opt/rebornos-iso-welcome
 python main.py --iso
